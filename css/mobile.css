@@ -1,0 +1,140 @@
+body {
+font-size: 12px;
+line-height: 1.35em;
+background-color: #fff;
+}
+
+.center {
+margin-top:0px; 
+margin-left: 0px;
+}
+
+#contact_details li {
+	color:  #767676;
+}
+
+ul#contact_details {
+padding-left: 20px;
+}
+
+li h3{
+display: inline-block;
+margin: 3px 15px 3px 0px;
+}
+
+li.address {
+	margin-bottom: 9px;
+}
+
+.contactForm_container {
+  	width: 90%;
+  	Height: 235px;
+  	margin-bottom: 18px;
+  	position:  relative;
+	top: 10px;
+	left: 0px;
+    background: #88ccff;
+}
+
+.contactForm_container input, .contactForm_container textarea {
+  padding: 5px 0px 5px 8px;
+  font-size: 1em;
+  width: 100%;
+}
+
+.contactForm_container textarea {
+  vertical-align: top;
+  height: 6em;
+  color: #767676;
+  resize: none;
+  }
+  
+  
+ /* what we do*/
+ .center .what_list {
+  padding: 10px 0 0 10px;
+  font-size: 1em;
+  margin: 0;
+}
+
+.center .what_list li {
+  display: block;
+ padding:  0;
+ margin:  0;
+  width: 150px;
+}
+
+.what_list li a {
+    color: #f25012;
+    color: rgba(242, 80, 18, 0.8);
+}
+
+ .center .what_description {
+  float: left;
+  padding: 0 10px;
+  height: 420px;
+  width: 90%;
+  position: relative;
+ top: 0px;
+ left: 0px;
+}
+
+.center .what_description p {
+  font-size: 1em;
+  line-height: 1.38em;
+  letter-spacing: 0.02em;
+  width: 100%;
+}
+  
+  
+/* who we are */
+#bios {
+  padding-left: 0;
+}
+
+.staff {
+  float: left;
+  padding-left: 10px;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 140px;
+  margin-bottom: 15px;
+}
+
+.staff li a {
+  width: 100px;
+  text-align: center;
+}
+
+
+.staff li a, .staff li ul li, #bios .bio h2, #bios .bio h3, #bios .bio p {
+  font-size: 1em;
+  }
+
+#bios .bio {
+  border: none;
+  float: left;
+  display: block;
+  padding: 0px 20px 20px 20px;
+  width: 90%;
+  margin: 0px;
+}
+
+#bios #bio-5 {
+  width: 90%;
+}
+
+.staff li a{
+	display: block;
+}
+.staff li ul li {
+	display:  none;
+	}
+
+
+
+/*swiper */ 

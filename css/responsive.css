@@ -1,0 +1,427 @@
+/* ==|== media queries ======================================================
+   PLACEHOLDER Media Queries for Responsive Design.
+   These override the primary ('mobile first') styles
+   Modify as content requires.
+   ========================================================================== */
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+.projectContainer .projectTitle h1 {
+word-spacing: -1px;
+}
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+.enter_page #content #logo {
+		max-width:50%;
+	}
+	
+.enter_page #content #line_2 {
+		max-width:80%;
+	}
+
+}
+
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+.enter_page #content #logo {
+		max-width:40%;
+	}
+	
+.enter_page #content #line_2 {
+		max-width:60%;
+	}
+	
+	.projectContainer .projectTitle h1 {
+		word-spacing: -1px;
+}
+
+}
+
+/* Smartphones iphone 5,6 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+	
+/*--------------------index.html------------------------------*/
+	#floater {
+	margin-bottom: 0px;
+	}
+	.enter_page #content #logo {
+		max-width:40%;
+	}
+
+	.enter_page #content #line_2 {
+		max-width:60%;
+	}
+	
+	.projectContainer .projectTitle h1 {
+	word-spacing: -1px;
+	}
+	
+}
+
+
+/* Smartphones up to  iphone 6 (portrait) ----------- */
+@media only screen 
+and (max-width : 414px) {
+	.enter_page #content #logo {
+		max-width:40%;
+	}
+	.enter_page #content #line_2 {
+		max-width:60%;
+	}
+	
+	.projectContainer .projectTitle h1 {
+word-spacing: -1px;
+	}
+
+}
+
+@media only screen 
+and (min-width : 415px) {
+	.enter_page #content #logo {
+		max-width:28%;
+	}
+	
+	.enter_page #content #line_2 {
+		max-width:50%;
+	}
+	
+	.projectContainer .projectTitle h1 {
+	word-spacing: -1px;
+	}
+} 
+
+
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+
+/* --- top -----*/	
+.north #topsearch {
+  right: 20px;
+  top: 0px;
+  position: absolute;
+  width: 240px;
+  height: 32px;
+}
+
+/*---------s ----*/
+.viewer {
+			overflow: hidden;
+			width: 100%;/*apply width fixed on max-width*/
+			}
+		
+.scroll-pane { 
+	overflow: scroll; /* has to be scroll, not auto */
+	float:left;
+	}	
+	
+.scroll-content { 
+			white-space: nowrap;
+			overflow-y: hidden;
+			overflow-x: scroll;
+			-webkit-overflow-scrolling: touch;
+			float: left;
+			}	
+
+
+/*--------- who we are page ------*/
+
+#topline {
+margin-left: 0px;
+}
+
+#tabs {
+margin-left: 45px;
+margin-top: 94px;
+}
+
+.center .what_description {
+ width: 445px;
+  left: 200px;
+  top: 220px;
+}
+
+.center .what_description p.p_width1 {
+  width: 450px;
+}
+
+/* ------- -----------*/
+
+#line-project {
+margin-left: 0px;
+	 }
+	/*adjustment to hide the line on ipad*/
+	
+.line-hidden {
+	visibility: hidden;
+	}
+	
+	.projectContainer .projectTitle h1 {
+word-spacing: -1px;
+	}
+	
+	/*-----single project page-------*/
+.center {
+  margin-left: 45px;
+}
+
+#sliderContent {
+  padding-left: 0px;
+}
+
+.scroll-content {
+  padding-left: 0px;
+}
+
+.slides {
+  padding-left: 0px;
+}
+
+.projectDescription {
+	display: block;
+	white-space: normal;
+	}
+.scroll-bar-wrap .ui-slider-handle {
+  display: none;
+}
+
+/* Other pages  */
+.center #contact_details {
+  margin-left: -32px;
+  width: 100%;
+}
+
+/* ---- who we are ---------*/
+#bios .work {
+  display: none;
+}
+#bios {
+  margin-top: 60px;
+}
+
+.staff {
+  float: left;
+  padding-left: 10px;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 10px;
+  width: 100%;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: 140px;
+  margin-bottom: 15px;
+}
+
+.staff li a {
+  width: 100px;
+  text-align: center;
+}
+
+#bios .bio {
+  border: none;
+  float: left;
+  display: block;
+  padding: 0px 20px 20px 20px;
+  width: 68%;
+  margin: 0px;
+}
+
+#bios #bio-5 {
+  width: 58%;
+}
+
+.staff li a{
+	display: block;
+}
+.staff li ul li {
+	display:  none;
+	}
+	
+	
+/*------how to reach us ---*/
+  
+#contact {
+ margin-top: 80px;
+}  
+
+
+.contactForm_container {
+  Height: 440px;
+  top: 220px;
+}
+
+/*--- portfoilio ---*/
+.center-portfolio { /*fix margins 13px added by default on element.style*/
+   padding-left: 43px;
+}
+
+.view_intructions {
+  padding: 35px 40px 20px 0px;
+}
+
+}
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+	
+.enter_page #content #logo {
+		max-width:28%;
+	}
+	
+.contactForm_container {
+  left: 275px;
+}
+
+.center #contact_details{
+	height: 100%;
+}
+
+#bios {
+	padding-left: 0px;
+  }
+  
+/*--------portfolio ----------*/
+.view_intructions {
+  padding: 20px 40px 0px 0px;
+}
+
+.projectContainer .projectTitle {
+  height: 25px;
+  margin-bottom: 4px;
+}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+.north{
+margin-left: 40px;	
+}	
+
+#nav {
+	left: 125px;
+}
+
+#nav {
+  /*width: 588px;*/
+}
+
+.enter_page #content #logo {
+		max-width:32%;
+	}
+	
+.contactForm_container {
+  width: 350px;
+  left: 235px;
+}
+
+.contactForm_container input, .contactForm_container textarea {
+  width: 330px;
+}
+
+.center #address {
+  left: 335px;
+}
+
+/*----------what we do -------*/
+.center .what_description {
+  width: 430px;
+  }
+  
+
+
+.center .what_description p {
+  width: 480px;
+  }
+  
+/*-----------who we are ------*/
+
+#bios .bio {
+  border: none;
+  float: left;
+  display: block;
+  padding: 0px 20px 20px 20px;
+  width: 80%;
+  margin: 130px 0 0 0;
+}
+
+.staff{
+	width: 80%;
+}
+
+
+
+}
+
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	.enter_page #content #logo {
+		max-width:17%;
+	}
+		
+/*------ portfolio ------*/
+	.scroll-content { 
+		padding-left: 0px;
+	}		
+
+}
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	.scroll-content { 
+		padding-left: 0px;
+	}
+}
+
+
+
+
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 {
+	orphans: 3;
+	widows: 3;
+	color: #999;
+}
+  h2, h3 {page-break-after: avoid;
+}
+}
+
+.slides .projectSlides .add_padding80 {
+	padding-top: 80px;
+}
