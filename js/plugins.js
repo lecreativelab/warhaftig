@@ -29,8 +29,8 @@ $(function() {
 
 	if ( isTabletOrMobile() ) { //is tablet, ipad, or mobile device, don't enable scroller and instead make window scrollable
 		scrollPane.css({
-			'overflow': 'auto',
-			'overflow-x': 'scroll'
+			'overflow-x': 'scroll',
+			'-webkit-overflow-scrolling': 'touch'
 		});
 		$('.scroll-bar-wrap').width(scrollContent.width() + 'px');
 		console.log(scrollContent.width());
