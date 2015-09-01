@@ -15,14 +15,11 @@
         * nav menu click and hover events to toggle menu
         *****/
 
-        // make nav default to menu2 opened
+        $openMenu = $('#nav .open-on-load').first()
 		
-        if (typeof openClientsMenu !== 'undefined' && openClientsMenu === true) {
-        	if (!isTabletOrMobile() ) {
-        		$('#nav')
-            		.addClass('no-hover')
-            		.find('.menu2').addClass('open');
-        	}
+        if ( $openMenu.length && !isTabletOrMobile() ) {
+    		$('#nav').addClass('no-hover');
+        	$openMenu.addClass('open');
         }
         $container = isTabletOrMobile() ? $('.layout') : $(document);
 
